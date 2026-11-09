@@ -29,3 +29,4 @@ Scripts/run_scenarios.sh camera layers   # only these
 - A screenshot can be taken before the tiles finish loading. Rerun with a longer wait in `Scripts/scenarios.txt` before reporting a blank map as a bug.
 - The package follows the `main` branch of ImmersiveMap, because the docs may describe code newer than the latest release.
 - To add a scenario, add a case to `scene()`, add it to `Scripts/scenarios.txt`, and add its expected result to `SCENARIOS.md`.
+- Always commit and push directly to `main`. Do not create other branches.
